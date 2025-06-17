@@ -50,14 +50,14 @@ IEAL replicates human cognitive asymmetry in LLMs:
          │                                 ▲
          │    no hit                       │ FAISS / KV
          ▼                                 │
-┌────────────────┐        logits        ┌───────────┐
-│Base LLM(frozen)│ ────────────────▶    │ Error Mask│
-└────────────────┘                      └───────────┘
+┌────────────────┐        logits      ┌───────────┐
+│Base LLM(frozen)│ ────────────────▶  │Error Mask │
+└────────────────┘                    └───────────┘
          │                                 ▲
          │backprop (LoRA)                  │ miss → write
          ▼                                 │
 ┌────────────────┐         async           │
-│ LoRA Adapters  │ <────────────────────-──┘
+│ LoRA Adapters  │ <───────────────────────┘
 └────────────────┘
 ```
 
