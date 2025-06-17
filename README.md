@@ -45,14 +45,14 @@ IEAL replicates human cognitive asymmetry in LLMs:
 
 ```
 ┌────────────────┐   write (<1 ms)   ┌──────────────┐
-│  Client Query  │ ────────────────▶ │  Error Mem    │
-└────────────────┘                  └──────────────┘
+│  Client Query  │ ────────────────▶ │  Error Mem   │
+└────────────────┘                   └──────────────┘
          │                                 ▲
          │    no hit                       │ FAISS / KV
          ▼                                 │
 ┌────────────────┐        logits        ┌───────────┐
-│ Base LLM (frozen)│ ────────────────▶ │  Error Mask│
-└────────────────┘                     └───────────┘
+│Base LLM(frozen)│ ────────────────▶    │ Error Mask│
+└────────────────┘                      └───────────┘
          │                                 ▲
          │backprop (LoRA)                  │ miss → write
          ▼                                 │
