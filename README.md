@@ -281,17 +281,6 @@ class ProductionIEAL:
 
 ---
 
-## 📊 Benchmark Results
-
-### Math-500 Dataset (v0.1)
-
-| Model              | Repeat-error ↓ | Pass@1     | Latency    | Memory   |
-|--------------------|----------------|------------|------------|----------|
-| Baseline Mistral-7B | —              | 42.1%      | 45ms       | 13GB     |
-| + Reflection        | 1.7×           | 46.3%      | 305ms      | 13GB     |
-| + Constitutional AI | 2.1×           | 47.2%      | 520ms      | 14GB     |
-| **IEAL (ours)**     | **9.8×**       | **48.9%**  | **52ms**   | 15GB     |
-
 ### Real-world Example: Mathematical Reasoning
 
 ```python
@@ -313,18 +302,6 @@ response2 = ieal.inference(query)
 ---
 
 ## 🚀 Quick Start
-
-### Installation
-
-```bash
-# From PyPI
-pip install instant-error-aware-llm
-
-# From source
-git clone https://github.com/quantum-bfs-initiative/IEAL
-cd IEAL
-pip install -e .[all]
-```
 
 ### Basic Usage
 
