@@ -441,4 +441,4 @@ From the [Quantum-BFS + Negative-Sample LLM Research Roadmap](https://github.com
 
 ---
 
-© 2025 Quantum-BFS Instant Error-Aware LLM (IEAL)  LinkPrint, Inc.
+© 2025 Instant Error-Aware LLM (IEAL)  LinkPrint, Inc.
