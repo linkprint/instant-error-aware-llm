@@ -56,8 +56,8 @@ IEAL replicates human cognitive asymmetry in LLMs:
          │                                 ▲
          │backprop (LoRA)                  │ miss → write
          ▼                                 │
-┌────────────────┐         async          │
-│ LoRA Adapters  │ <──────────────────────┘
+┌────────────────┐         async           │
+│ LoRA Adapters  │ <────────────────────-──┘
 └────────────────┘
 ```
 
