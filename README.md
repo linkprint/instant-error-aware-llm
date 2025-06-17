@@ -408,7 +408,6 @@ We need help with:
 1. **Faster FAISS updates** - Current implementation rebuilds index
 2. **PAC-Bayes scheduler** - Optimal weight decay schedules
 3. **New benchmarks** - Code debugging, scientific reasoning
-4. **Model support** - Llama 3, Claude, GPT-4 adapters
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines.
 
