@@ -440,8 +440,8 @@ This work implements the theoretical framework from:
 - Section 7: "Cognitive Asymmetry: Why Errors Matter More"
 - Section 8: "Rapid Online Learning for Traditional LLMs"
 
-From the [Quantum-BFS + Negative-Sample LLM Research Roadmap](https://github.com/quantum-bfs-initiative/qbrain).
+From the [Quantum-BFS + Negative-Sample LLM Research Roadmap](https://github.com/linkprint/quantum-negative-learning).
 
 ---
 
-© 2025 Quantum-BFS Initiative
+© 2025 Quantum-BFS Instant Error-Aware LLM (IEAL)  LinkPrint, Inc.
