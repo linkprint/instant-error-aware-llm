@@ -416,9 +416,9 @@ We need help with:
 ```bibtex
 @misc{ieal2025,
   title   = {Instant Error-Aware LLM: Millisecond-Latency Negative Learning},
-  author  = {Quantum-BFS Initiative},
+  author  = {LinkPrint, Inc.},
   year    = {2025},
-  url     = {https://github.com/quantum-bfs-initiative/IEAL},
+  url     = {[https://github.com/linkprint/instant-error-aware-llm](https://github.com/linkprint/instant-error-aware-llm)},
   note    = {Implements cognitive asymmetry theory for rapid error avoidance}
 }
 ```
