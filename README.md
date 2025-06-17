@@ -409,8 +409,6 @@ We need help with:
 2. **PAC-Bayes scheduler** - Optimal weight decay schedules
 3. **New benchmarks** - Code debugging, scientific reasoning
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines.
-
 ---
 
 ## 📚 Citation
