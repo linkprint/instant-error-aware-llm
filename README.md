@@ -1,6 +1,10 @@
 # Instant Error-Aware LLM (IEAL)
 
 > **One-sentence pitch —** *"Learn a mistake once, never repeat it."* IEAL implements the cognitive asymmetry theory from human neuroscience, adding a **millisecond-latency, highly-asymmetric negative-sample loop** on top of any LLM.
+> 
+> Significance for Zero-Tolerance Scenarios
+
+> IEAL's architecture is uniquely suited for environments where even a single mistake is unacceptable. In zero-tolerance applications—such as automated trading, medical diagnostics, or mission-critical system control—the system's ability to instantly and permanently learn from errors ensures that the same mistake will never be repeated. This rapid, asymmetric error-immunity loop dramatically reduces operational risk and provides unparalleled reliability, making IEAL an ideal choice for the highest-stakes domains.
 
 ---
 
